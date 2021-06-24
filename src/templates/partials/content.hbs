@@ -1,0 +1,12 @@
+{{#each pageContent}}
+  <div
+    id='page{{@index}}'
+    class='content'
+    style='background-color: {{bgColor}};'
+  >
+    <h2>{{title}}</h2>
+    <div>
+      {{description}}
+    </div>
+  </div>
+{{/each}}

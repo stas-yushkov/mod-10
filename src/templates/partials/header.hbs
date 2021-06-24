@@ -1,0 +1,14 @@
+<nav class='navBar'>
+  <ul>
+    {{#each navItems}}
+      <li>
+        <a href='#page{{@index}}'>{{this}}</a>
+      </li>
+    {{/each}}
+
+    {{#if name}}
+      <div>Привет, {{name}}!</div>
+    {{/if}}
+
+  </ul>
+</nav>
